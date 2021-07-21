@@ -27,7 +27,7 @@ export const NavBar = () => {
       {/* header start */}
       <div className="navbar-header">
         <div className="icon-avatar-circle-fill">
-          <i className="bi-person-fill"></i>
+          <i className="bi-bounding-box"></i>
         </div>
         <h2 className="logo-text">tumbas</h2>
       </div>

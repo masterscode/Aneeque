@@ -1,15 +1,18 @@
 import React from 'react'
+import { DashboardMain } from '../components/DashboardMain'
 import { NavBar } from '../components/NavBar'
+import { UserProfile } from '../components/UserProfile'
 
 export const Dashboard = () => {
     return (
         <section className='dashboard'>
-                {/* dashboard navs start*/}
+                {/* dashboard nav start*/}
                 <NavBar />
-                {/* dashboard navs end*/}
-
+                {/* dashboard nav end*/}
+                <DashboardMain />
                 {/* dashboard main-body */}
                 {/* dashboard user-profile */}
+                <UserProfile />
         </section>
         
     )
