@@ -1,0 +1,20 @@
+.icon-avatar-circle, .icon-avatar-circle-fill {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    border: solid medium $color-secondary;
+    padding: 1rem;
+    background:transparent;
+}
+
+.icon-avatar-circle-fill{
+    background-color: $color-primary--lighter;
+    border: none;
+    color: white;
+
+    i{
+        font-size: 26px;
+    }
+}
